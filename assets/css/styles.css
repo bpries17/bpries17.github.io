@@ -16,7 +16,7 @@ body {
 p {
   line-height: 1.5;
 }
-a:link, a:active {
+a:link, a:active, a:visited {
   display: inline-block;
   text-align: center;
   width: 150;
