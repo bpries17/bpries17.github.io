@@ -2,14 +2,30 @@
 ---
 
 @import "{{ site.theme }}";
-/* body {
+body {
   font-family: Arial;
   margin: 0;
   padding: 0; 
 }
-h2 {
-  color: #50ebec;
-}
+/* h2 {
+  color: #50bec6;
+} */
 p {
   line-height: 1.5;
-} */
+}
+a:link, a:active {
+  display: block;
+  text-align: center;
+  width: 150;
+  margin: 0 auto;
+  padding: 20;
+  color: white;
+  text-transform: uppercase;
+  font-family: Arial;
+  border: 1 solid #fff;
+  text-decoration: none;
+  border-radius: 10;
+}
+a:hover {
+  background-color: #55c8f2
+}
