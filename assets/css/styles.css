@@ -23,12 +23,19 @@ a:link, a:active {
   margin: 0 auto;
   padding: 20;
   color: white;
-  text-transform: uppercase;
   font-family: Arial;
   border: 1 solid #fff;
-  text-decoration: none;
   border-radius: 10;
+  text-decoration: none;
 }
 a:hover {
   background-color: #55c8f2
+}
+a.button {
+    padding: 20;
+    color: buttontext;
+    background-color: buttonface;
+    border: 1 solid buttonborder;
+    border-radius: 10;
+    text-decoration: none;
 }
