@@ -44,3 +44,30 @@ li a:hover {
     border-color: rgba(255, 255, 255, 0.3);
   }
 }
+.sidebar {
+  height: 100%;
+  width: 320px;
+  position: absolute;
+  z-index: 1;
+  top: 1;
+  bottom: 1;
+  left: 0;
+  background-color: #c8c8c8;
+  overflow-x: hidden;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 18px;
+}
+.sidenav {
+  position: fixed;
+  text-align: center;
+  margin-left: 10px;
+}
+.content {
+  margin-left: 320px;
+  padding: 0px 10px;
+}
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+}
