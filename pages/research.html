@@ -7,38 +7,50 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
     <title>Research</title>
   </head>
-  
-  <header class="page-header" role="banner">
+
+  <body>
+    <header class="page-header" role="banner">
       <h1> <center> Research </center> </h1>
       
       <nav>
-        <ul list-style-type="None" margin="0" padding="0">
-          <li> <a href="/" class="btn">Home</a> </li>
-          <li> <a href="/pages/about.html" class="btn">About Me</a> </li>
-          <li> <a href="/pages/research.html" class="btn">Research</a> </li>
-        </ul>
+        <center> <ul>
+          <li style="display:inline"> <a href="/" class="btn">Home</a> </li>
+          <li style="display:inline"> <a href="/pages/about.html" class="btn">About Me</a> </li>
+          <li style="display:inline"> <a href="/pages/research.html" class="btn">Research</a> </li>
+        </ul> </center>
       </nav>
     </header>
   
-  <body>
-    <h2> <u>Direct-Collapse Black Holes</u> </h2>
+    <main>
+      <div class="sidebar">
+        <div class="sidenav">
+          <p>Brandon Pries</p>
+          <p>Center for Relativistic Astrophysics</p>
+          <p> <a href="mailto:bpries3@gatech.edu">bpries3@gatech.edu</a> </p>
+        </div>
+      </div>
+      
+      <div class="content" style="margin-left:320px">
+        <h2>Direct-Collapse Black Holes</h2>
+        
+        <h3> <u>DCBH Formation</u> </h3>
+        <p>My current research focuses on the formation of direct-collapse black holes (DCBHs) in the early universe. Specifically, I'm developing a support vector machine (SVM) attempting to predict the probability of a halo forming a DCBH given the halo's properties (mass, temperature, metallicity, etc.).</p>
+        
+        <h2>Neutrinos</h2>
+        
+        <h3> <u>WIMP Annihilation</u> </h3>
+        <p>This project is a statistical search for neutrinos from dark matter (DM), where we assume DM consists of Weakly-Interacting Massive Particles (WIMPs). Given the location of observed neutrinos, the predicted spectra of neutrinos from WIMP annihilation, and the properties of the dwarf galaxies we assume are sources of WIMP annihilation, we calculate the best-fit number of events we expect to see from WIMP annihilation. Since this is not a statistically-significant deviation from what we expect from background, we set upper limits on the velocity-averaged WIMP annihilation cross section <math>\left<\sigma v\right></math>.</math></p>
+        
+        <h3> <u>RNN Reconstructions for IceCube-Upgrade</u> </h3>
+        <p>This project was attempting to improve upon existing reconstruction methods for a future detector geometry. By treating each event as a sequence of hits, we used recurrent neural networks (RNNs) RNNs to attempt to reconstruct the energy and direction of incoming neutrinos from simulated neutrino data.</p>
+        
+        <h3> <u>CNN Reconstructions for FLERCNN</u> </h3>
+        <p>This project was attempting to speed up existing event reconstruction methods by using neural networks, which can be several orders of magnitude faster than likelihood-based reconstructions. By summarizing the event information for each Digitial Optical Module (DOM) in the detector, we treated the data like an image and used convolutional neural networks to attempt to reconstruct the neutrino's energy and zenith angle. My work on this project focused on testing different networks archtiectures and loss functions. This led to the development of the Fast Low-Energy Reconstruction using Convolutional Neural Networks (FLERCNN) model.</p>
+      </div>
+    </main>
 
-    <h3>DCBH Formation</h3>
-    
-    <p>My current research focuses on the formation of direct-collapse black holes (DCBHs) in the early universe. Specifically, I'm developing a support vector machine (SVM) attempting to predict the probability of a halo forming a DCBH given the halo's properties (mass, temperature, metallicity, etc.).</p>
-
-    <h2> <u>Neutrinos</u> </h2>
-    
-    <h3>WIMP Annihilation</h3>
-
-    <p>This project is a statistical search for neutrinos from dark matter (DM), where we assume DM consists of Weakly-Interacting Massive Particles (WIMPs). Given the location of observed neutrinos, the predicted spectra of neutrinos from WIMP annihilation, and the properties of the dwarf galaxies we assume are sources of WIMP annihilation, we calculate the best-fit number of events we expect to see from WIMP annihilation. Since this is not a statistically-significant deviation from what we expect from background, we set upper limits on the velocity-averaged WIMP annihilation cross section <math>\left<\sigma v\right></math>.</math></p>
-
-    <h3>RNN Reconstructions for IceCube-Upgrade</h3>
-
-    <p>This project was attempting to improve upon existing reconstruction methods for a future detector geometry. By treating each event as a sequence of hits, we used recurrent neural networks (RNNs) RNNs to attempt to reconstruct the energy and direction of incoming neutrinos from simulated neutrino data.</p>
-
-    <h3>CNN Reconstructions for FLERCNN</h3>
-
-    <p>This project was attempting to speed up existing event reconstruction methods by using neural networks, which can be several orders of magnitude faster than likelihood-based reconstructions. By summarizing the event information for each Digitial Optical Module (DOM) in the detector, we treated the data like an image and used convolutional neural networks to attempt to reconstruct the neutrino's energy and zenith angle. My work on this project focused on testing different networks archtiectures and loss functions. This led to the development of the Fast Low-Energy Reconstruction using Convolutional Neural Networks (FLERCNN) model.</p>
+    <footer>
+      <center> <p>© 2024 Brandon Pries. All rights reserved.<br>Powered by GitHub.</p> </center>
+    </footer>
   </body>
 </html>
