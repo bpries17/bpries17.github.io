@@ -10,6 +10,9 @@ body {
   font-size: 16px;
   line-height: 1.25;
 }
+main {
+  position: relative;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -55,7 +58,7 @@ li a:hover {
   background-color: #c8c8c8;
   overflow-x: hidden;
   padding-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   text-align: center;
   font-size: 18px;
 }
