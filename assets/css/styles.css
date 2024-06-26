@@ -48,7 +48,7 @@ li a:hover {
   }
 }
 .sidebar {
-  height: 99%;
+  height: 97%;
   width: 320px;
   position: absolute;
   z-index: 1;
@@ -64,15 +64,17 @@ li a:hover {
 }
 .sidenav {
   width: 320px;
+  position: -webkit-sticky;
   position: sticky;
   z-index: 2;
   top: 10px;
   text-align: center;
   padding: 20px 0px;
+  align-self: flex-start;
 }
 .content {
-  margin-left: 320px;
   padding: 0px 10px;
+  flex-grow: 1;
 }
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
