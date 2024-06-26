@@ -48,11 +48,11 @@ li a:hover {
   }
 }
 .sidebar {
-  height: 100%;
+  height: 99%;
   width: 320px;
   position: absolute;
   z-index: 1;
-  top: 1;
+  top: 10px;
   bottom: 1;
   left: 0;
   background-color: #c8c8c8;
@@ -63,9 +63,12 @@ li a:hover {
   font-size: 18px;
 }
 .sidenav {
-  position: fixed;
+  width: 320px;
+  position: sticky;
+  z-index: 2;
+  top: 10px;
   text-align: center;
-  margin-left: 10px;
+  padding: 20px 0px;
 }
 .content {
   margin-left: 320px;
