@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="author" content="Brandon Pries">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/styles.css">
     <title>Research</title>
   </head>
@@ -22,15 +24,14 @@
     </header>
   
     <main>
-      <div class="sidebar">
-        <div class="sidenav">
-          <p>Brandon Pries</p>
-          <p>Center for Relativistic Astrophysics</p>
-          <p> <a href="mailto:bpries3@gatech.edu">bpries3@gatech.edu</a> </p>
-        </div>
+      <div class="sidenav" style="display:inline-block;">
+        <img src="https://bpries17.github.io/assets/img/headshot.jpg" style="width:200px;height:300px;">
+        <p>Brandon Pries</p>
+        <p>Center for Relativistic Astrophysics,<br>Georgia Institute of Technology</p>
+        <p> <a href="mailto:bpries3@gatech.edu">bpries3@gatech.edu</a> </p>
       </div>
       
-      <div class="content" style="margin-left:320px">
+      <div class="content" style="display:inline-block;">
         <h2>Direct-Collapse Black Holes</h2>
         
         <h3> <u>DCBH Formation</u> </h3>
@@ -47,10 +48,12 @@
         <h3> <u>CNN Reconstructions for FLERCNN</u> </h3>
         <p>This project was attempting to speed up existing event reconstruction methods by using neural networks, which can be several orders of magnitude faster than likelihood-based reconstructions. By summarizing the event information for each Digitial Optical Module (DOM) in the detector, we treated the data like an image and used convolutional neural networks to attempt to reconstruct the neutrino's energy and zenith angle. My work on this project focused on testing different networks archtiectures and loss functions. This led to the development of the Fast Low-Energy Reconstruction using Convolutional Neural Networks (FLERCNN) model.</p>
       </div>
+
+      <!--<div class="sidebar"></div>-->
     </main>
 
     <footer>
-      <center> <p>© 2024 Brandon Pries. All rights reserved.<br>Powered by GitHub.</p> </center>
+      <center> <p>© 2024 Brandon Pries. All rights reserved.<br>Powered by <i class="fa fa-github" aria-hidden="true"></i> GitHub. Theme adapted from <a href="https://github.com/pages-themes/cayman" style="color:skyblue;">Cayman</a>.</p> </center>
     </footer>
   </body>
 </html>
