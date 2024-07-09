@@ -38,21 +38,16 @@ main {
   justify-content: flex-start;
 }
 
-li a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 16px;
-  margin: 0px 10px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #418599;
+a {
+  color: blue;
 }
 
 .btn {
   display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 16px;
+  margin: 0px 10px;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(255, 255, 255, 0.08);
