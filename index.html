@@ -5,6 +5,9 @@
     <meta name="author" content="Brandon Pries">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="theme-color" content="#157878">
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/styles.css">
     <title>Brandon Pries - Homepage</title>
@@ -176,7 +179,7 @@
     </main>
 
     <footer>
-      <center> <p>© 2024 Brandon Pries. All rights reserved.<br>Powered by <i class="fa fa-github" aria-hidden="true"></i> GitHub. Theme adapted from <a href="https://github.com/pages-themes/cayman" style="color:skyblue;">Cayman</a>.</p> </center>
+      <center> <p>&copy; <span id="year"></span> Brandon Pries. All rights reserved.<br>Powered by <i class="fa fa-github" aria-hidden="true"></i> GitHub. Theme adapted from <a href="https://github.com/pages-themes/cayman" style="color:skyblue;">Cayman</a>.</p> </center>
     </footer>
   </body>
 </html>
